@@ -30,7 +30,7 @@ optional arguments:
 ```
 
 ## Screenshots
-![Alt text](https://i.ibb.co/7Y2TsQv/dorky2.png "DOrky Screenshot")
+![Alt text](https://i.ibb.co/CVWSbvW/dorky3.png "DOrky Screenshot")
 
 ## Rate Limits
 
