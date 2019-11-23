@@ -2,24 +2,32 @@
 DOrky is a simple and efficient command-line utility for the automation of Google dorking. 
 
 ## Getting Started
-In order to install DOrky onto your machine you will need to meet the prerequisites outlined below and follow the installation instructions for your environment. DOrky has only been tested on Kali Linux but should work using any Debian based distribution. 
+<p align="justify">In order to install DOrky onto your machine you will need to meet the prerequisites outlined below and follow the installation instructions for your environment. DOrky has only been tested on Kali Linux but should work using any Debian based distribution. </p>
 
 #### Prerequisites
 In order to use DOrky you will need to have or obtain the following: -
-
 ```
 1. Google Cloud API key - https://cloud.google.com/console/google/
 2. Google Custom Search Engine (CSE) ID - https://cse.google.com/cse/all
+3. Python 3.x - https://www.python.org/downloads/ 
 ```
-These are required in order for calls to the Google Search API to function correctly.
+These are required in order for calls to the Google Search API to function and the script to execute.
 
 #### Installing
 Once you have met the prerequsitives and have your API key and CSE ID available 
 
+#### Usage
 
+```
+usage: dorky.py [-h] -d D [-r R]
 
-## Deployment
-Add additional notes about how to deploy this on a live system
+Example: dorky.py -d google.com -r dorks.txt
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -d D        Use this argument to specify your domain
+  -r R        Use this argument to specify your dorks file
+```
 
 ## Screenshots
 https://i.ibb.co/7Y2TsQv/dorky2.png
