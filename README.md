@@ -14,7 +14,9 @@ In order to use DOrky you will need to have or obtain the following: -
 These are required in order for calls to the Google Search API to function and the script to execute.
 
 #### Installation
-Clone the git repository and cd into the project root folder. Run setup.sh which will install the neccessary dependencies. 
+1. Clone the git repository and cd into the project root folder. 
+2. Run setup.py which will install the required packages / dependencies. 
+3. Run dorky.py.
 
 #### Dependencies
 
@@ -25,7 +27,7 @@ Clone the git repository and cd into the project root folder. Run setup.sh which
 
 #### Usage
 
-Dorky can be ran from the command line using the following syntax. Simply specify the domain you would like to target along with a file containing your search strings / Google dorks. DOrky will perform a search query for each line in the file against your target domain and output the results to a HTML file along with a screenshot of each URL. 
+Dorky can be ran from the command line using the following syntax. Simply specify the domain you would like to target along with a file containing your search strings / Google dorks. DOrky will perform a search query for each line in the file against your target domain and output the results to a HTML file along with a screenshot of each web page.
 ```
 usage: dorky.py [-h] -d D [-r R]
 
