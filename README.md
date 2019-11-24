@@ -22,7 +22,7 @@ These are required in order for calls to the Google Search API to function.
 - tabulate
 - termcolor
 - selenium
-- googleapiclient
+- google-api-python-client
 
 #### Usage
 
