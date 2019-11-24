@@ -13,11 +13,19 @@ In order to use DOrky you will need to have or obtain the following: -
 ```
 These are required in order for calls to the Google Search API to function and the script to execute.
 
-#### Installing
-Once you have met the prerequsitives and have your API key and CSE ID available 
+#### Installation
+Clone the git repository and cd into the project root folder. Run setup.sh which will install the neccessary dependencies. 
+
+#### Dependencies
+
+- tabulate
+- termcolor
+- selenium
+- googleapiclient
 
 #### Usage
 
+Dorky can be ran from the command line using the following syntax. Simply specify the domain you would like to target along with a file containing your search strings / Google dorks. DOrky will perform a search query for each line in the file against your target domain and output the results to a HTML file along with a screenshot of each URL. 
 ```
 usage: dorky.py [-h] -d D [-r R]
 
@@ -32,10 +40,6 @@ optional arguments:
 ## Screenshots
 ![Alt text](https://i.ibb.co/CVWSbvW/dorky3.png "DOrky Screenshot")
 
-## Rate Limits
-
-Google implement various restrictions upon calls to their Search API. For example, each search query is limited to a maxium of 100 results. Google also rate-limit API requests 
-
 ## Contributing
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
@@ -46,6 +50,4 @@ Mike Carthy (Mikestro) - Developer - https://www.linkedin.com/in/mikecarthy/
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE.md file for details.
 
 ## Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
+A massive thank you to Nedbat over at #Python / Freenode for his help in debugging some of my code.
