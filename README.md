@@ -2,7 +2,7 @@
 DOrky is a simple and efficient command-line utility for the automation of Google dorking. 
 
 ## Getting Started
-<p align="justify">In order to install DOrky onto your machine you will need to meet the prerequisites outlined below and follow the installation instructions for your environment. DOrky has been tested on Kali Linux but should work using any Debian based distribution. </p>
+<p align="justify">In order to install DOrky onto your machine you will need to meet the prerequisites outlined below and follow the installation instructions for your environment. DOrky has only been tested using Python 3.7 on Kali Linux. </p>
 
 #### Prerequisites
 In order to use DOrky you will need to have or obtain the following: -
