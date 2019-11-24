@@ -13,7 +13,7 @@ In order to use DOrky you will need to have or obtain the following: -
 These are required in order for calls to the Google Search API to function.
 
 #### Installation
-1. `git clone https://github.com/Mikestr0/DOrky.git`
+1. Run `git clone https://github.com/Mikestr0/DOrky.git`
 2. Cd into the project directory.
 3. Run setup.py which will install the required packages / dependencies. 
 
