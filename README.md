@@ -45,7 +45,7 @@ optional arguments:
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
-Mike Carthy (Mikestro) - Developer - https://www.linkedin.com/in/mikecarthy/ 
+Mike Carthy (Mikestro) - https://www.linkedin.com/in/mikecarthy/ 
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE.md file for details.
