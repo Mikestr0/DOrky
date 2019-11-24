@@ -8,8 +8,8 @@ from termcolor import colored
 from selenium import webdriver
 from googleapiclient.discovery import build
 
-api_key = "AIzaSyCJoGemaJ_UDXZ2c3A89oGdkDqhDweGGAk"
-cse_id = "016126508485619455489:j-e9tqkwvru"
+api_key = ""
+cse_id = ""
 
 banner =  """
 
