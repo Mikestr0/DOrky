@@ -9,7 +9,6 @@ In order to use DOrky you will need to have or obtain the following: -
 ```
 1. Google Cloud API key - https://cloud.google.com/console/google/
 2. Google Custom Search Engine (CSE) ID - https://cse.google.com/cse/all
-3. Python 3.x - https://www.python.org/downloads/ 
 ```
 These are required in order for calls to the Google Search API to function and the script to execute.
 
