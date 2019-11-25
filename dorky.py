@@ -51,7 +51,7 @@ def screenshot(a, b):
     options.add_argument('--ignore-certificate-errors')
     options.add_argument("--test-type")
     options.add_argument('--headless')
-    options.binary_location = "/usr/bin/chromium"
+    options.binary_location = "/usr/bin/google-chrome"
     driver = webdriver.Chrome(options=options)
 
     driver.get(a)
