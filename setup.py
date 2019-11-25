@@ -20,7 +20,7 @@ setup(name='DOrky',
           'termcolor',
           'selenium',
           'tabulate',
-          'googleapiclient'
+          'google-api-python-client'
       ],
       include_package_data=True,
       zip_safe=False)
