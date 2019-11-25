@@ -9,6 +9,7 @@ In order to use DOrky you will need to have or obtain the following: -
 ```
 1. Google Cloud API key - https://cloud.google.com/console/google/
 2. Google Custom Search Engine (CSE) ID - https://cse.google.com/cse/all
+3. Google Chrome web browser (required for selenium / web screenshot integration)
 ```
 These are required in order for calls to the Google Search API to function.
 
